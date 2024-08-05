@@ -2,18 +2,18 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <title>Gallery</title>
 
     <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/simplelightbox/dist/simple-lightbox.min.css"
+    />
   </head>
   <body>
-    <load src="1-gallery.html"></load>
-    <load src="2-form.html"></load>
-
     <section>
-      <h1>Home</h1>
+      <h1>Gallery</h1>
       <ul>
         <li>
           <a href="./index.html">Home</a>
@@ -26,8 +26,10 @@
         </li>
       </ul>
     </section>
+    <div>
+      <ul class="gallery"></ul>
+    </div>
 
-    <script defer type="module" src="./js/1-gallery.js"></script>
-    <script defer type="module" src="./js/2-form.js"></script>
+    <script type="module" src="./js/1-gallery.js"></script>
   </body>
 </html>
